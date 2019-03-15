@@ -1,0 +1,82 @@
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(../images/jef-willemyns-520713-unsplash.jpg);
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#banner h1{
+    text-align: center;
+}
+
+#banner p{
+    text-align: center;
+}
+
+.button {
+    background-color: green;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    color:white;
+    padding:6px;
+    margin: 40px;
+}
+.button:hover{
+    text-decoration: none;
+    color:white;
+    background-color: gray;
+    transition: linear 0.2s;
+
+}
+
+.banner-info{    
+}
+
+.mynav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    text-align:center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align:center;
+  }
+  
+  li a:hover {
+    text-decoration: none;
+    background-color:lightgray;
+    color:black;
+    transition: linear 0.2s;
+  }
+
+  .card-container{
+      display: flex;
+      justify-content: space-around; 
+  }
+
+  .card-white{
+      background-color: #FAFAFA;
+      padding: 20px;
+      box-shadow: 5px 10px 10px #F0F0F0;
+      position: relative;
+      margin: 50px 0;
+  }
