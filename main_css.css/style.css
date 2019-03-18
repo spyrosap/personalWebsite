@@ -1,9 +1,9 @@
 #banner{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(../images/jef-willemyns-520713-unsplash.jpg);
+    background-image:url(../images/undraw_campfire_s6y4.svg);
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     text-align: center;
-    color: white;
+    color: #38D39F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +79,21 @@
       box-shadow: 5px 10px 10px #F0F0F0;
       position: relative;
       margin: 50px 0;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  .description-container{
+      display: flex;
+      justify-content: space-around
+  }
+
+  .long-card{
+    background-color: #FAFAFA;
+    padding: 20px;
+    box-shadow: 5px 10px 10px #F0F0F0;
+    position: relative;
+    margin: 50px 0;
   }
