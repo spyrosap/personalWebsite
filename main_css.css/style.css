@@ -81,19 +81,39 @@
       margin: 50px 0;
   }
   .avatar {
+    margin-top: 30px;
     border-radius: 50%;
     width: 200px;
+    height: 200px;
+    box-shadow: 5px 10px 10px #F0F0F0;
+    display: inline-block;
+    vertical-align: middle;
+   
   }
 
-  .description-container{
-      display: flex;
-      justify-content: space-around
-  }
 
   .long-card{
     background-color: #FAFAFA;
     padding: 20px;
     box-shadow: 5px 10px 10px #F0F0F0;
     position: relative;
-    margin: 50px 0;
+    margin: 50px 50px;
+    display: flex;
+  }
+
+
+  .description{
+      text-align: center;
+  }
+
+  .description li{
+      display: inline-block;
+  }
+
+  #logo{
+      width:50px;
+      height:50px;
+  }
+  .description h2{
+      color: #38D39F;
   }
