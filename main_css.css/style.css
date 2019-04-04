@@ -10,6 +10,7 @@
 
 }
 
+
 #banner h1{
     text-align: center;
 }
@@ -78,7 +79,8 @@
       padding: 20px;
       box-shadow: 5px 10px 10px #F0F0F0;
       position: relative;
-      margin: 50px 0;
+      margin: 50px 50px;
+      text-align: center;
   }
   .avatar {
     margin-top: 30px;
@@ -99,6 +101,8 @@
     position: relative;
     margin: 50px 50px;
     display: flex;
+    text-align: center;
+    justify-content: space-around;
   }
 
 
@@ -116,4 +120,27 @@
   }
   .description h2{
       color: #38D39F;
+      text-align: center;
   }
+
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color:  #38D39F;
+    height:50px;
+}
+
+.footer p {
+    padding-top:10px;
+}
+
+.card-description{
+    text-align:center;
+    margin-top:20px;
+}
+
+.image-holder{
+    margin-right: 20px;
+    display: block;
+}

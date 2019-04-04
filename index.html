@@ -1,8 +1,9 @@
 <!DOCTYPE html> 
 <html>
-    <head> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <head>    
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href='style.css' rel='stylesheet'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,12 +22,15 @@
 
         <div class="basic-nav">
             <ul class="mynav">
-                <li><a href="#">Here is something more about me</a></li>
+                <li><a href="#skills">Here is something more about me</a></li>
             </ul>
         </div>
 
         <div class="long-card">
-                <img class="avatar" src="images/myAvatar.png" alt="">
+                <div class="image-holder">
+                        <img class="avatar" src="images/myAvatar.png" alt=""> 
+                </div>
+
                 <div class="description">
                         <h2>I AM SPYROS</h2>
                         <p>I am a passionate digital student with a heart for mountain climbing, running and sports gitall around. I enjoy coding in my spare time. I started with python and I am getting into Go lately. Here are some of my social media, feel free to reach out: </p>
@@ -35,27 +39,102 @@
                             <li><a href="https://www.linkedin.com/in/spyridon-aspreas-516aa8133/"><img id="logo" src="images/linkedin.png" alt="linkedin"></a></li>
                             <li><a href="https://github.com/spyrosap"><img id="logo" src="images/github-logo.png" alt="github"></a></li>
                         </ul>
+                        <p>Below you'll find some of my recent dev projects :)</p>
                 </div> 
         </div>
 
 
-
-
-        <div class="card-container">
-                <div class="card-white">   
-                        <img src="images/undraw_journey_lwlj.svg" alt="picture description" height="140">
-                        <p>We deliver fast, <strong>really fast</strong></p>
-                </div>
-                <div class="card-white">
-                        <img src="images/undraw_into_the_night_vumi.svg" alt="picture description" height="140">
-                        <p>You can trust us, <strong>like really</strong></p>
-                </div>
-                <div class="card-white">
-                        <img  src="images/undraw_code_typing_7jnv.svg" alt="picture description" height="140">
-                        <p>We adapt our price to <strong>your situation</strong></p>
+        <div class="container">
+                <div class="row">
+                  <div class="col">
+                        <div class="card-white">
+                                <a href="https://github.com/spyrosap/Chrome_extension_Jira"> <img  src="images/jiraDashboard.png" alt="picture description" height="120"> </a>
+                                <div class="card-description">
+                                        <h3>A small Jira Extension to make life easier</h3>
+                                        <p>I simply created a chrome extension to help Product Managers at Rakuten France get something more out of Jira. I haven’t pushed the chrome Extension into the store as it still is into development. I really learned a lot on the architecture of chrome extensions pretty interesting stuff</p>                                </div>
+                        </div>      
+                  </div>
+                  <div class="col">
+                        <div class="card-white">
+                                <a href="https://github.com/spyrosap/basic_pwa"> <img  src="images/pwa.png" alt="picture description" height="120"> </a>
+                                <div class="card-description">
+                                        <h3>My first experiment with PWAs</h3>
+                                        <p>Discover the amazing world of Progressive Web Apps, and Service Workers. It is actually quite easy to understand and to create your own PWA in a couple of hours. </p>
+                                </div>
+                        </div>   
+                  </div>            
+                   </div>
                 </div>
         </div>
 
+
+        <div class="long-card">
+                <a name="skills"><div class="description">
+                    <h2>Here are some of my main skills</h2>
+                    <p><b>Product Management </b></p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                          70%
+                        </div>
+                    </div> 
+                    <p><b>Python</b></p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active bg-success" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                          50%
+                        </div>
+                    </div> 
+                    <p><b>Agile methodologies</b></p>
+                    <div class="progress">
+                            <div class="progress-bar progress-bar-striped active bg-warning" role="progressbar"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                              80%
+                            </div>
+                    </div> 
+                    <p><b>Javascript</b></p>
+                    <div class="progress">
+                            <div class="progress-bar progress-bar-striped active bg-warning" role="progressbar"
+                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                              70%
+                            </div>
+                    </div>
+                </div> </a>
+        </div>
+
+        <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                        <div class="card-white">   
+                                <p><b>BE OPTIMISTIC</b></p>
+                                <img src="images/undraw_journey_lwlj.svg" alt="picture description" height="140">
+                                <div class="card-description">
+                                        <p>Always look, <strong>forward ! </strong></p>
+                                </div>
+                        </div>
+                  </div>
+                  <div class="col-sm">
+                        <div class="card-white">
+                                <p><b>BE HUMBLE</b></p>
+                                <img src="images/undraw_into_the_night_vumi.svg" alt="picture description" height="140">
+                                <div class="card-description">
+                                        <p>By being humble you <strong>like really</strong></p>
+                                </div>
+                        </div>            </div>
+                  <div class="col-sm">
+                        <div class="card-white">
+                                <p><b>LEARN EVERYDAY</b></p>
+                                <img  src="images/undraw_code_typing_7jnv.svg" alt="picture description" height="140">
+                                <div class="card-description">
+                                        <p>Once you start loving the learning process <strong>Don'stop push further</strong></p>
+                                </div>
+                        </div>                    
+                    </div>
+                </div>
+              </div>
+        <footer class="footer">
+            <p>All rights reserved. Spyrosap 2019. Made with love</p>
+        </footer>
+
     </body>
-    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
 </html>
